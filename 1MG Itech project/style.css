@@ -7,74 +7,72 @@
 .navbarContainer {
   background-color: white;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
   z-index: 1000;
   height: 5.55vw;
   position: sticky;
   filter: drop-shadow(0 0.2rem 0.25rem rgba(0, 0, 0, 0.2));
-  font-family: "Poppins", serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .TataLogo {
   width: 170px;
+  margin-left: 5px;
 }
 
 .unorderList {
   display: flex;
-  align-items: center; /* Vertically align items */
-  justify-content: center; /* Horizontally center items if needed */
-  /* gap: 10px; */
-  margin: 0; /* Remove default margin */
-  padding: 0; /* Remove default padding */
-  height: 100%; /* Match the navbar height */
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  list-style: none;
+  margin-left: 10px;
 }
 
 .unorderList li {
-  list-style-type: none;
-  margin: 0 10px;
-  height: 100%; /* Match the height of the navbar */
   display: flex;
-  align-items: center; /* Vertically center list items */
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  /* padding: 0 19.2px; */
+  /* margin: 0 20px; */
+  /* margin-right: 20px; */
+  padding: 0 21px;
 }
 
 .unorderList li a {
   text-decoration: none;
-  font-size: 25px;
-  font-weight: 500;
-  color: #3b3b3b;
-  transition: color 0.3s ease;
-  display: flex;
-  align-items: center; /* Ensure text aligns vertically */
-  height: 100%;
-  /* padding: 0 5px; Add slight padding for better spacing */
+    font-size: 21px;
+    font-weight: 500;
+    color: #3b3b3b;
+    transition: color 0.3s ease;
 }
-
 .unorderList li a:hover {
-  color: #ff6f61; /* Text color change on hover */
+  color: #ff6f61;
 }
 
-/* Underline at the bottom of the navbar */
 .navbarContainer::after {
   content: "";
   position: absolute;
-  bottom: 0; /* Aligns underline at the bottom of nav */
+  bottom: 0;
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #ff6f61; /* Underline color */
+  background-color: #ff6f61;
   transition: width 0.3s ease-in-out;
 }
 
 .unorderList li:hover ~ .navbarContainer::after {
-  width: 100%; /* Full navbar underline on hover */
+  width: 100%;
 }
 
 .navbarImgContainer {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
   margin-right: 30px;
+  margin-bottom: 10px;
 }
 
 .new {
@@ -84,16 +82,14 @@
   color: white;
   font-weight: 500;
   margin-left: 3px;
-  font-size: 21px;
+  font-size: 20px;
 }
 
 .fa-solid {
-  font-size: 15px;
+  font-size: 14px;
   padding-left: 5px;
 }
 
 .orderListContainer {
   height: 100%;
-  padding: 0px;
-  margin-right: 3.4723vw;
 }
