@@ -2,6 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Poppins", serif;
 }
 
 .navbarContainer {
@@ -92,4 +93,45 @@
 
 .orderListContainer {
   height: 100%;
+}
+/* Navbar Done */
+
+.FrontBanner{
+    background-color: #D3B3D6;
+    width: 100%;
+    height: 30.625vw;
+    padding-top: 7.95vw;
+    padding-bottom: 0px;
+    padding-left: 13.75vw;
+    padding-right: 0px;
+    background-image: url("./img/3667e9cc-6102-4022-afd3-8c6dc5ed9ea0.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+.SectionOne {
+  width: 100%;
+  color: #3b3b3b;
+  padding: 40px 150px;
+}
+
+.sectionOneHeading{
+
+}
+
+.heading {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.HeadingSpan {
+  font-weight: 400;
+}
+
+.sectionOneContainer {
+  display: flex;
 }
