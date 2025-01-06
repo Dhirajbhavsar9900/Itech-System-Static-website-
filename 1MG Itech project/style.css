@@ -45,10 +45,10 @@
 
 .unorderList li a {
   text-decoration: none;
-    font-size: 21px;
-    font-weight: 500;
-    color: #3b3b3b;
-    transition: color 0.3s ease;
+  font-size: 21px;
+  font-weight: 500;
+  color: #3b3b3b;
+  transition: color 0.3s ease;
 }
 .unorderList li a:hover {
   color: #ff6f61;
@@ -67,6 +67,7 @@
 
 .unorderList li:hover ~ .navbarContainer::after {
   width: 100%;
+  border-bottom: 1px solid black;
 }
 
 .navbarImgContainer {
@@ -96,20 +97,20 @@
 }
 /* Navbar Done */
 
-.FrontBanner{
-    background-color: #D3B3D6;
-    width: 100%;
-    height: 30.625vw;
-    padding-top: 7.95vw;
-    padding-bottom: 0px;
-    padding-left: 13.75vw;
-    padding-right: 0px;
-    background-image: url("./img/3667e9cc-6102-4022-afd3-8c6dc5ed9ea0.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    text-align: left;
-    display: flex;
-    flex-direction: column;
+.FrontBanner {
+  background-color: #d3b3d6;
+  width: 100%;
+  height: 30.625vw;
+  padding-top: 7.95vw;
+  padding-bottom: 0px;
+  padding-left: 13.75vw;
+  padding-right: 0px;
+  background-image: url("./img/3667e9cc-6102-4022-afd3-8c6dc5ed9ea0.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .SectionOne {
@@ -118,8 +119,7 @@
   padding: 40px 150px;
 }
 
-.sectionOneHeading{
-
+.sectionOneHeading {
 }
 
 .heading {
@@ -134,4 +134,585 @@
 
 .sectionOneContainer {
   display: flex;
+
+  align-items: center;
+  flex-direction: row;
+  gap: 1.9rem;
+}
+.feature-items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  gap: 0.9rem;
+}
+
+.feature-item {
+  width: 10.47vw;
+  height: 13.05vw;
+}
+.imgBox {
+  width: 140px;
+}
+
+.item-image {
+  height: 9.45vw;
+  background-color: #fbeedd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-data {
+  font-family: poppins;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.67vw;
+  text-align: center;
+}
+.itemTitle {
+  white-space: nowrap;
+}
+.itemHead {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.CancerTypes {
+  margin-top: 1.11vw;
+}
+.cancerHeading {
+  color: #3b3b3b;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+  margin-bottom: 0.5vw;
+}
+
+.listCancer {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+
+.cancerDiv {
+  width: 19.5833vw;
+  height: 10.347vw;
+  background: #b1e0db;
+  border-radius: 0.5rem;
+  padding: 1.11vw;
+}
+
+/* .CancerCol{
+
+} */
+
+.cancerTypeRow {
+  display: flex;
+  gap: 0.833vw;
+  margin-bottom: 0.55vw;
+}
+
+.cancerTypeIcon {
+  height: 5.55vw;
+  width: 5.55vw;
+}
+.listCancerImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.CancerHead {
+  display: flex;
+  color: #1a6a67;
+  flex-direction: column;
+}
+
+.CancerHead h1 {
+  font-weight: 600;
+  font-size: 24px;
+}
+.CancerHead span {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.BottomLine {
+  width: 100%;
+  height: 0px;
+  opacity: 0.3;
+  border: 1px solid #1a6a67;
+}
+
+.cancertypeBottom {
+  display: flex;
+}
+
+.CancerTypesOrder {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.CancerTypesOrder li {
+  list-style: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.CancerTypesOrder li a {
+  color: #1a6a67;
+  text-decoration: none;
+  text-decoration: underline;
+}
+
+.SectionTwo {
+  background: #b1e0db;
+  width: 100%;
+  padding-top: 2.22vw;
+  padding-bottom: 2.22vw;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+}
+
+.cancerSubHeading {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  min-height: 2.5vw;
+  color: #000000;
+  margin-bottom: 1.18056vw;
+  margin-top: 0.625vw;
+}
+
+.Causeslist {
+  display: flex;
+  justify-content: space-around;
+}
+
+.causesDiv {
+  display: flex;
+  flex-direction: column;
+  max-width: 31.25vw;
+  align-items: center;
+}
+
+.causesIcon {
+  height: 10.83vw;
+  width: 10.83vw;
+  margin-bottom: 2.22vw;
+  min-height: 10.83vw;
+  min-width: 10.83vw;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.causesdiv2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.CausesName {
+  text-align: center;
+  margin-bottom: 0.625vw;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  min-height: 2.5vw;
+  color: #000000;
+}
+
+.CausesDescription {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.66vw;
+  min-height: 1.66vw;
+  color: #000000;
+}
+
+.SectionThree {
+  width: 100%;
+  padding-top: 2.22vw;
+  padding-bottom: 2.22vw;
+  padding-left: 8.33vw;
+  padding-right: 8.33vw;
+  background-color: #f4e08e;
+  display: flex;
+}
+
+.tips {
+  background-color: #fff;
+  margin-right: 1.11vw;
+  border-radius: 1rem;
+  padding: 0px 0px 0px 2.77vw;
+  width: 55.2vw;
+  height: 25.55vw;
+  display: flex;
+}
+.tipsQuestion {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+  margin-top: 6.8vw;
+  margin-bottom: 1.11vw;
+  color: #4b4b4b;
+}
+
+.tipsAnswer {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  color: #000000;
+}
+
+.bulb {
+  height: 25.55vw;
+  min-width: 20.2416vw;
+  max-width: 70%;
+}
+
+.Tips2 {
+  background-color: #fff;
+  border-radius: 1rem;
+  width: 27.013vw;
+  height: 25.55vw;
+  padding: 1.66vw;
+  position: relative;
+}
+
+.offerText {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  color: #000000;
+}
+
+.SectionFour {
+  position: relative;
+  padding-top: 9vw;
+  background-color: #000000;
+}
+
+.contain {
+  margin: 0 auto;
+  padding: 0 0;
+  max-width: 75%;
+}
+
+.h1 {
+  color: white;
+  line-height: 1;
+  font-size: 3vw;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.h2 {
+  color: white;
+  line-height: 1;
+  font-size: 16vw;
+  margin-bottom: 0;
+  font-weight: 700;
+  text-align: center;
+}
+
+.bloodcells {
+  position: absolute;
+  top: 4vw;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+}
+
+.bloodcellsAnimation {
+  width: 100%;
+  height: 100%;
+}
+.bloodcellsAnimation:hover {
+  animation: bloodcellsAnimation 3s infinite ease-in-out forwards;
+  transition: transfrom 4;
+  -webkit-transition: transform 0.2s;
+}
+
+@keyframes bloodcellsAnimation {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(2);
+  }
+}
+
+.bloodcellsImg {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.SectionFive {
+  background: #f4e08e;
+  height: 15.2778vw;
+  width: 100%;
+  display: flex;
+  color: #3b3b3b;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+  padding: 2.22vw 0px 3.33vw;
+  margin-bottom: -4.5vw;
+}
+
+.statisticsDiv {
+  width: 25.18vw;
+}
+
+.statisticsHeading {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+}
+
+.statisticsDescription {
+  font-weight: 400;
+  font-size: 1.25rem;
+  line-height: 2.083vw;
+  min-height: 2.083vw;
+  text-align: left;
+}
+
+.img-res {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.Bannerimg3 {
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+.SectionSeven {
+  width: 100%;
+  padding-top: 2.22vw;
+  padding-bottom: 2.22vw;
+  padding-left: 8.33vw;
+  padding-right: 6.66vw;
+  background-color: #fff;
+}
+
+.SecSevenTitle {
+  font-weight: 400;
+  font-size: 1.5rem;
+  line-height: 2.5vw;
+  min-height: 2.5vw;
+  color: #3b3b3b;
+}
+
+.BlueTitle {
+  margin-top: 1.11vw;
+  margin-bottom: 1.11vw;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+  color: #4907a3;
+}
+
+.articleList {
+  display: flex;
+  flex-wrap: wrap;
+  /* gap: 1.67vw; */
+  justify-content: space-between;
+}
+
+.articleThumbnail {
+  width: 19.583vw;
+  height: 12.638vw;
+  position: relative;
+}
+
+.playButton {
+  position: absolute;
+  height: 4.861vw;
+  width: 4.861vw;
+  border-radius: 50%;
+  left: calc(50% - 4.861vw / 2);
+  top: calc(50% - 4.861vw / 2);
+  background: rgba(0, 0, 0, 0.4);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(1px);
+  z-index: 1;
+}
+
+.playVector {
+  height: 1.528vw;
+  width: 1.39vw;
+  margin-top: calc(50% - 1.528vw / 2);
+  margin-left: calc(50% - 1.19vw / 2);
+}
+
+.articleName {
+  margin-top: 0.27vw;
+  line-height: 2.083vw;
+  min-height: 4.1667vw;
+  color: #3b3b3b;
+  font-size: 1.25rem;
+  font-weight: 400;
+  margin-bottom: 0.694vw;
+  width: 400px;
+}
+
+.articleOuterDiv {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.SectionEight {
+  width: 100%;
+  padding-top: 2.22vw;
+  padding-bottom: 2.22vw;
+  padding-left: 8.33vw;
+  /* padding-right: 6.66vw; */
+  padding-right: 6.11vw;
+  background-color: #b1e0db;
+}
+
+.specialSectionHeading {
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.sectionSectionBItton {
+  font-weight: 400;
+}
+
+.specialRow {
+  margin-top: 1.1805vw;
+  display: flex;
+  gap: 2.22vw;
+  width: 100%;
+  min-height: 10.83vw;
+}
+
+.specialRowIcon {
+  height: 10.83vw;
+  width: 10.83vw;
+  min-width: 10.83vw;
+  min-height: 10.83vw;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+.specialRowDiv2 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.specialRowHeading {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 3.33vw;
+  min-height: 3.33vw;
+  color: #000;
+}
+
+.specialRowDescription {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.67vw;
+  min-height: 1.67vw;
+  color: #000000;
+}
+
+footer {
+  background-color: black;
+}
+.legalMenuOuterDiv {
+  background-color: #000000;
+  color: #fff;
+}
+
+.contain {
+  margin: 0 auto;
+  padding: 0 0;
+  max-width: 75%;
+}
+
+.privacy_policy {
+  display: flex;
+  justify-content: space-between;
+  color: #3b3b3b;
+  padding: 2vw 0;
+}
+
+
+.legalMenuItem {
+  line-height: 2.083vw;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.verticalBreak1 {
+  border-left: 1px solid #fff;
+}
+
+.lineBreak3OuterDiv {
+  width: 100%;
+  padding-left: 1.11vw;
+  padding-right: 1.11vw;
+}
+.lineBreak3 {
+  width: 100%;
+  height: 0px;
+  border: 1px solid #fff;
+}
+
+.disclaimer {
+  background-color: #000;
+  color: #fff;
+  padding: 2vw 0;
+}
+
+.disclaimer_text {
+  font-size: 0.75rem;
+  line-height: 1.4vw;
+}
+
+.paraii{
+  margin-top: 0.5vw
+}
+
+.copyrightSection {
+  background-color: #000;
+  padding-top: 1.11vw;
+  padding-bottom: 1.11vw;
+}
+
+.copyrightIcon {
+  height: 2.8472vw;
+  width: 5.5986vw;
+  color: white;
+}
+
+.disclaimer_text {
+  font-size: 0.75rem;
+  line-height: 1.4vw;
+  color: white;
 }
