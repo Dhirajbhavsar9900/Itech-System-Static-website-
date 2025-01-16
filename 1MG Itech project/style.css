@@ -662,7 +662,6 @@ footer {
   padding: 2vw 0;
 }
 
-
 .legalMenuItem {
   line-height: 2.083vw;
   font-size: 1.25rem;
@@ -695,8 +694,8 @@ footer {
   line-height: 1.4vw;
 }
 
-.paraii{
-  margin-top: 0.5vw
+.paraii {
+  margin-top: 0.5vw;
 }
 
 .copyrightSection {
@@ -715,4 +714,563 @@ footer {
   font-size: 0.75rem;
   line-height: 1.4vw;
   color: white;
+}
+
+.fa-solid {
+  display: none;
+  color: white;
+}
+
+.tataMobileLogo {
+  display: none;
+}
+.sectionOneContainer {
+  margin-top: 20px;
+}
+
+@media screen and (max-width: 600px) {
+  .navbarContainer {
+    display: flex;
+    height: 11.6vw;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    z-index: 100;
+  }
+  .TataLogo {
+    display: none;
+  }
+
+  .orderListContainer {
+    display: none;
+  }
+
+  .tataLastLogo {
+    display: none;
+  }
+  .tataMobileLogo {
+    display: block;
+    max-width: 25%;
+    top: 3.5vw;
+    left: 4.44vw;
+  }
+  .navbarImgContainer {
+    display: none;
+  }
+  .FrontBanner {
+    height: 127.22vw;
+    top: 13.33vw;
+    padding-left: 0px;
+    align-items: center;
+    padding-top: 2vw;
+    background-image: url(https://onemg.gumlet.io/staging/e4fccc62-0550-4669-83e3-8f1df7660486.png) !important;
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .SectionOne {
+    padding-top: 2.22vw;
+    padding-bottom: 2.22vw;
+    padding-left: 4.44vw;
+    padding-right: 4.44vw;
+  }
+
+  .heading {
+    color: #3b3b3b;
+    font-weight: 600;
+    font-size: 21px;
+    line-height: 8.056vw;
+    min-height: 8.056vw;
+    margin-bottom: 2.22vw;
+  }
+
+  .HeadingSpan {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.833vw;
+    min-height: 5.833vw;
+    color: #3b3b3b;
+    margin-bottom: 2.22vw;
+  }
+
+  .sectionOneContainer {
+    margin-top: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 14px;
+  }
+
+  .feature-items {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  .feature-item {
+    width: 27.73vw;
+    height: 38.5vw;
+    gap: 4px;
+  }
+
+  .item-image {
+    height: 27.8vw;
+    background-color: #fbeedd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .imgBox {
+    width: 22.4vw;
+    height: 22.4vw;
+  }
+
+  .item-data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 4.81vw;
+    text-align: center;
+  }
+  .itemTitle {
+    font-size: 10px;
+  }
+  .itemHead {
+    font-size: 10px;
+  }
+  .CancerTypes {
+    margin-top: 4.44vw;
+  }
+
+  .cancerHeading {
+    color: #3b3b3b;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 8.056vw;
+    min-height: 8.056vw;
+    margin-bottom: 2.22vw;
+  }
+  .listCancer {
+    margin-top: 1.11vw;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: nowrap; */
+    gap: 3.33vw;
+  }
+
+  .cancerDiv {
+    width: 100%;
+    height: 22.22vw;
+    background: #b1e0db;
+    border-radius: 0.25rem;
+    padding-left: 2.7vw;
+    padding-right: 2.7vw;
+    padding-top: 4.44vw;
+    padding-bottom: 4.44vw;
+    display: flex;
+    gap: 2.7vw;
+  }
+
+  .cancerTypeIcon {
+    display: block !important;
+  }
+
+  .cancerTypeIcon img {
+    height: 13.33vw;
+    width: 13.33vw;
+  }
+
+  .CancerHead {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .CancerHead span {
+    margin: 0;
+    font-size: 16px;
+  }
+  .CancerHead h1 {
+    margin: 0;
+    font-size: 16px;
+  }
+  .cancerTypeRow {
+    gap: 50px;
+  }
+
+  .BottomLine {
+    display: none;
+  }
+
+  .CancerTypesOrder {
+    margin-left: 70px;
+    margin-top: 2px;
+    font-weight: 500;
+    font-size: 0.75rem;
+    line-height: 4.72vw;
+    min-height: 4.72vw;
+    gap: 50px;
+  }
+
+  .CancerTypesOrder li {
+    font-size: 10px;
+  }
+
+  .SectionTwo {
+    background: #b1e0db;
+    width: 100%;
+    padding-top: 6.66vw;
+    padding-bottom: 6.66vw;
+    padding-left: 4.44vw;
+    padding-right: 4.44vw;
+  }
+
+  .cancerHeading {
+    color: #3b3b3b;
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 8.056vw;
+    min-height: 8.056vw;
+    margin-bottom: 2.22vw;
+  }
+  .cancerSubHeading {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.833vw;
+    min-height: 5.5vw;
+    color: #000000;
+    margin-bottom: 4.44vw;
+  }
+
+  .Causeslist {
+    flex-direction: column;
+  }
+
+  .causesDiv {
+    display: flex;
+    flex-direction: row;
+    max-width: 100%;
+    text-align: left;
+    align-items: flex-start;
+    margin-bottom: 6.66vw;
+  }
+  .causesIcon {
+    height: 22.22vw;
+    width: 22.22vw;
+    margin-right: 4.44vw;
+    min-height: 22.22vw;
+    min-width: 22.22vw;
+  }
+
+  .causesIcon img {
+    height: 22.22vw;
+    width: 22.22vw;
+  }
+
+  .causesdiv2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .CausesName {
+    font-size: 1rem;
+    line-height: 6.667vw;
+    min-height: 6.667vw;
+    color: #000;
+    margin-bottom: 0;
+    text-align: left;
+    font-weight: 600;
+  }
+
+  .CausesDescription {
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 6.667vw;
+    min-height: 6.667vw;
+    color: #000;
+  }
+
+  .SectionThree {
+    width: 100%;
+    padding-top: 8.88vw;
+    background-color: #f4e08e;
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+  }
+
+  .tips {
+    background-color: #fff;
+    padding: 0px 0px 0px 4.44vw;
+    width: 100%;
+    height: 43.612vw;
+    display: flex;
+    border-radius: 0;
+  }
+
+  .tipsQuestion {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 8.055vw;
+    min-height: 8.055vw;
+    margin-top: 4.44vw;
+    margin-bottom: 2.22vw;
+    color: #4b4b4b;
+  }
+
+  .tipsAnswer {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.833vw;
+    color: #000000;
+  }
+
+  .Tips2 {
+    background-color: #fff;
+    width: 100%;
+    height: 51.388vw;
+    position: relative;
+    padding: 6.66vw;
+    border-radius: 0;
+  }
+
+  .offerText {
+    font-weight: 400;
+    color: #000000;
+    font-size: 0.875rem;
+    line-height: 5.833vw;
+  }
+
+  .contain {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .h1 {
+    font-size: 12vw;
+  }
+
+  .SectionFive {
+    flex-direction: column;
+    padding: 4.44vw;
+    min-height: 65.278vw;
+    justify-content: space-between;
+    align-items: left;
+    text-align: left;
+    color: #000;
+  }
+  .statisticsDiv {
+    width: 100%;
+  }
+  .statisticsHeading {
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 8.05vw;
+    min-height: 8.05vw;
+  }
+
+  .statisticsDescription {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.833vw;
+    min-height: 5.833vw;
+  }
+
+  .SectionSeven {
+    width: 100%;
+    padding: 4.44vw;
+    background-color: #fff;
+  }
+
+  .SecSevenTitle {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.83vw;
+    min-height: 5.83vw;
+    color: #3b3b3b;
+  }
+
+  .BlueTitle {
+    margin-top: 4.44vw;
+    margin-bottom: 4.44vw;
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 8.056vw;
+    min-height: 8.056vw;
+    color: #4907a3;
+  }
+
+  .articleList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    gap: 1.67vw;
+  }
+
+  .articleOuterDiv {
+    width: 196px;
+  }
+
+  .articleThumbnail {
+    width: 44.44vw;
+    height: 31.94vw;
+  }
+  .playButton {
+    position: absolute;
+    height: 12.22vw;
+    width: 12.22vw;
+    border-radius: 50%;
+    left: calc(50% - 12.22vw / 2);
+    top: calc(50% - 12.22vw / 2);
+    background: rgba(0, 0, 0, 0.75);
+    backdrop-filter: blur(1px);
+    z-index: 1;
+  }
+
+  .playVector {
+    height: 6.13vw;
+    width: 4.872vw;
+    margin-top: calc(50% - 6.13vw / 2);
+    margin-left: calc(50% - 4vw / 2);
+  }
+  .articleThumbnail {
+    width: 44.44vw;
+    height: 31.94vw;
+  }
+
+  .articleName {
+    width: 196px;
+    margin-top: 1.11vw;
+    line-height: 4.72vw;
+    min-height: 9.44vw;
+    color: #3b3b3b;
+    font-size: 0.75rem;
+    font-weight: 500;
+  }
+
+  .SectionEight {
+    width: 100%;
+    padding-top: 6.66vw;
+    padding-bottom: 6.66vw;
+    padding-left: 4.44vw;
+    /* padding-right: 6.66vw; */
+    padding-right: 4.44vw;
+    background-color: #b1e0db;
+  }
+
+  .specialSectionHeading {
+    line-height: 8.05vw;
+    min-height: 8.05vw;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  .sectionSectionBItton {
+    line-height: 8.05vw;
+    min-height: 8.05vw;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 4.72vw;
+  }
+
+  .specialRowIcon {
+    width: 15.55vw;
+    height: 15.55vw;
+    min-width: 15.55vw;
+    min-height: 15.55vw;
+  }
+
+  .specialRowDiv2 {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 4.72vw;
+    width: 100%;
+  }
+
+  .specialRowHeading {
+    width: 100%;
+    display: flex;
+    gap: 3.33vw;
+    align-items: center;
+  }
+
+  .specialRowDescription {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.83vw;
+    min-height: 5.83vw;
+    color: #000000;
+  }
+  .specialRowHeading {
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 8.055vw;
+    min-height: 8.055vw;
+    color: #000;
+  }
+
+  .specialRowDescription {
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 5.83vw;
+    min-height: 5.83vw;
+    color: #000000;
+  }
+
+  footer {
+  }
+
+  .legalMenuOuterDiv {
+    padding: 4.44vw;
+  }
+
+  .contain {
+    max-width: 95%;
+    margin: 0 auto;
+  }
+
+  .privacy_policy {
+    height: 55.833vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .legalMenuItem {
+    line-height: 5.833vw;
+    font-size: 0.75rem;
+    font-weight: 400;
+  }
+
+  .lineBreak3OuterDiv {
+    padding-left: 4.44vw;
+    padding-right: 4.44vw;
+  }
+
+  .disclaimer {
+    padding: 4.44vw;
+  }
+
+  .disclaimer_text {
+    font-size: 0.75rem;
+    line-height: 5.833vw;
+  }
+
+  .copyrightSection {
+    background-color: #000;
+    padding: 4.44vw;
+}
+
+.copyrightIcon {
+  height: 11.39vw;
+  width: 22.39vw;
+}
 }
