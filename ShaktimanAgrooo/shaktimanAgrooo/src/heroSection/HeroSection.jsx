@@ -7,15 +7,15 @@ function heroSection() {
       <div className="absolute inset-0">
         <video
           src={HeroVideo}
-          autoPlay
-          muted
-          loop
+          // autoPlay
+          // muted
+          // loop
           className="w-full h-full object-cover"
         ></video>
       </div>
       <div className="absolute inset-0 bg-black bg-opacity-50">
         <div className="relative z-10 flex justify-end items-center h-full">
-          <div className="absolute bottom-0 left-0 right-0 py-12 bg-[rgba(35,31,32,0.4)] w-full z-20">
+          <div className="absolute bottom-0 left-0 right-0 py-12 bg-[rgba(35,31,32,0.5)] w-full z-20">
             <div className="row mb-10 flex">
               <div className=" px-[180px] flex-col text-white leading-tight flex justify-start w-full ">
                 <h1 className="text-[45px] w-[900px] mb-5  font-semibold  uppercase space-x-10 font-Poppins  text-white">

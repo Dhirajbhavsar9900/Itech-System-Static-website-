@@ -19,7 +19,7 @@ function OurCustomerSection() {
           </p>
         </div>
 
-        <div className=" relative mt-[70px] block">
+        <div className="relative mt-[70px] block">
           <button className=" flex justify-center items-center opacity-[0.5] right-[70px] top-[-100px] bg-[#FDF4E4] border-none w-[60px] h-[60px] rounded-[10px] absolute z-30 hover:bg-[#FDE9DD]">
             <img src={leftarrow} alt="" />
           </button>
@@ -48,7 +48,7 @@ function OurCustomerSection() {
       </div>
       
       <div className=" flex items-center justify-center">
-        <button className=" bg-[#F37021] text-white px-8 py-2 rounded-lg hover:bg-[#E25700] duration-100 ease-out">View More <ArrowCircleRightIcon /></button>
+        <button className=" bg-[#F37021] text-white px-8 py-2 rounded-lg hover:bg-[#E25700] duration-100 ease-out">View more <ArrowCircleRightIcon /></button>
       </div>
     </div>
   );

@@ -6,11 +6,11 @@
   <title>Document</title>
 </head>
 <style>
-  .relative {
+  /* .relative {
     position: relative;
     width: 200px;
     height: 200px;
-    z-index: 3;
+    z-index: -1;
     background-color: red;
   }
 
@@ -20,13 +20,48 @@
     left: 40px;
     width: 200px;
     height: 200px;
-    z-index: 2;
+    z-index: -2;
     background-color: blue;
 
+  } */
+
+
+  
+
+
+
+  .Heaidng {
+    width: 50px;
+    height: 30px;
+  }
+
+  p::selection{
+    background-color: yellow;
+    color: black;
+  }
+  .opacity {
+    background-color: darkgreen;
+    width: 500px;
+    height: 200px;
+    margin: 20px;
   }
 </style>
 <body>
-  <div class="relative"></div>
-  <div class="absolute"></div>
+  <!-- <div class="relative"></div>
+  <div class="absolute"></div> -->
+
+
+
+  <div class="hoverContainer">
+    <button>Click Me </button>
+  </div>
+
+
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque perferendis delectus qui velit sapiente, obcaecati modi incidunt dolores quae amet, deleniti repellat id, mollitia nisi alias excepturi rem error officia quia. Rem, amet ducimus earum voluptas dolorem culpa laudantium nobis soluta ratione minima iure maxime cupiditate possimus at incidunt in odit accusantium distinctio! Necessitatibus minus in, veritatis, alias quidem suscipit fugit repudiandae, tempora at maiores distinctio ratione adipisci doloremque. Sit accusantium, in sint officia minus cumque ratione pariatur facere dignissimos est alias. Porro fugit enim obcaecati cum quasi, maxime iure labore ut aspernatur. Sequi tempore modi assumenda earum, necessitatibus atque.</p>
+
+
+  <div style="opacity: 100%;" class="opacity">opacity 100%</div>
+  <div style="opacity: 50%;" class="opacity">opacity 50%</div>
+  <div style="opacity: 10%;" class="opacity">opacity 10%</div>
 </body>
 </html>

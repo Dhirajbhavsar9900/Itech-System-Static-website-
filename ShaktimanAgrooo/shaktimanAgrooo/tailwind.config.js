@@ -11,6 +11,9 @@ export default {
       },
       backgroundImage: {
         'aboutImage': "url('./src/img/about-bg.png')",
+        'bgImage': "url('./src/img/shaktiman-slide.png')",
+        'arrowImage' : "url('./src/img/download.svg')",
+        'menuBg': "url('./src/img/footer-bottom-bg.png)"
       }
     },
   },

@@ -7,6 +7,8 @@ import AnthemSection from './anthem-section/AnthemSection'
 import OurCustomerSection from './ourCustomerSection/OurCustomerSection'
 import LatestUpdateSection from './LatestUpdateSection/LatestUpdateSection'
 import RightFlotedBtn from "./rightFlotedBtn/RightFlotedBtn"
+import GuidenceSection from "./guidanceSection/guidenceSection"
+import FooterSection from './Footer/FooterSection'
 function App() {
   return (
     <>
@@ -18,6 +20,8 @@ function App() {
       <AnthemSection />
       <OurCustomerSection />
       <LatestUpdateSection />
+      <GuidenceSection />
+      <FooterSection />
     </>
   )
 }
